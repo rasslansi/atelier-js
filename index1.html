@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu chiffre caché</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col title">
+                <h1>Welcome to the Game </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h5>Remaining chances: </h5>
+            </div>
+            <div class=" col-2">
+                <h5 id="counter">7</h5>
+            </div>
+            <div class="result col-4"></div>
+            <div class="col align">
+                <h5>Your last entry: </h5>
+            </div>
+            <div class=" col-1 align">
+                <h5 id="lastnum">3</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col title">
+                <h2 id="result">Give me a good guess</h2>
+            </div>
+        </div>
+        <div class="row " id="buttons1">
+            <div class="col-5 center"><button type="button" class="btn btn-outline-danger restart" id="">Restart Game</button></div>
+            <div class="col-2 center"><button type="button" class="btn btn-outline-primary home" id="">Home</button>
+            </div>
+            <div class="col-5 center"><button type="button" class="btn btn-success submit" id="">Submit attempt</button>
+            </div>
+        </div>
+        <div class="row" id="buttons2" hidden>
+            <div class="col-5 center"><button type="button" class="btn btn-outline-primary home" id="">Home</button></div>            
+            <div class="col-2 "> </div>
+            <div class="col-5 center"><button type="button" class="btn btn btn-success restart" id="">Restart Game</button></div>
+        </div>
+    
+        <script src="ex1.js"></script>
+</body>
+
+</html>
